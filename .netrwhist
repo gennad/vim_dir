@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/tmp/extdiff.5lXz8g/dmview_prj'
+let g:netrw_dirhist_2='/home/gennad/src/cpython/Modules'
+let g:netrw_dirhist_3='/home/gennad/pydev/cab_mod_prj/src/cab_mod'
+let g:netrw_dirhist_4='/home/gennad/pydev/cab_dealer_prj/src/cab_dealer'
+let g:netrw_dirhist_5='/home/gennad/pydev/cab_dealer_prj/src/cab_dealer/templates'
+let g:netrw_dirhist_6='/home/gennad/pydev/cab_dealer_prj/src'
+let g:netrw_dirhist_7='/opt/uni_passport/uni_passport_fe/controllers'
+let g:netrw_dirhist_8='/home/gennad/testjson/json'

@@ -1,0 +1,1 @@
+agtd.vba: call delete('/home/gennad/.vim/doc/agtd.txt')|call delete('/home/gennad/.vim/ftplugin/agtd.vim')|call delete('/home/gennad/.vim/plugin/agtd.vim')|call delete('/home/gennad/.vim/syntax/agtd.vim')

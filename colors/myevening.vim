@@ -1,16 +1,17 @@
-" Maintainer:	Lars H. Nielsen (dengmao@gmail.com)
-" Last Change:	January 22 2007
+" Vim color file
+" Maintainer:	Bram Moolenaar <Bram@vim.org>
+" Last Change:	2006 Apr 14
 
+" This color scheme uses a dark grey background.
+
+" First remove all existing highlighting.
 set background=dark
-
 hi clear
-
 if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "wombat"
-
+let colors_name = "myevening"
 
 " Vim >= 7.0 specific colors
 if version >= 700
@@ -20,6 +21,8 @@ if version >= 700
   hi Pmenu 		guifg=#f6f3e8 guibg=#444444
   hi PmenuSel 	guifg=#000000 guibg=#cae682
 endif
+
+
 
 " General colors
 hi Cursor 		guifg=NONE    guibg=#656565 gui=none
@@ -37,18 +40,22 @@ hi SpecialKey	guifg=#808080 guibg=#343434 gui=none
 
 " Syntax highlighting
 hi Comment 		guifg=#99968b gui=italic
-hi Todo 		guifg=#8f8f8f gui=italic
-"hi Constant 	guifg=#e5786d gui=none
-hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0 guibg=grey5
 
-hi String 		guifg=#95e454 gui=italic
-hi Identifier 	guifg=#cae682 gui=bold
+hi Todo 		guifg=#8f8f8f gui=italic
+hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0 guibg=grey5
+"hi String 		guifg=#95e454 gui=italic
+hi Identifier 	guifg=#95e454 gui=bold
 hi Function 	guifg=#cae682 gui=bold
 hi Type 		guifg=#cae682 gui=none
 hi Statement 	guifg=#8ac6f2 gui=bold
 hi Keyword		guifg=#8ac6f2 gui=bold
 hi PreProc 		guifg=#e5786d gui=none
-hi Number		guifg=#e5786d gui=none
+"hi Number		guifg=#e5786d gui=none
 hi Special		guifg=#e7f6da gui=none
-
 hi ErrorMsg        guifg=#80d4aa guibg=#2f2f2f gui=bold
+
+
+" Groups for syntax highlighting
+hi Constant term=underline ctermfg=Magenta guifg=#ffa0a0 guibg=grey5
+hi Special term=bold ctermfg=LightRed guifg=Orange guibg=grey5
+
